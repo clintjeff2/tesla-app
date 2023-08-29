@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 	
 	<groupId>com.mt</groupId>
-	<artifactId>Tesla-web-application</artifactId>
+	<artifactId>Tesla's-applications</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1</version>
 	
-	<name>tesla-web-application</name>
+	<name>tesla-real-web-application</name>
 
 	<description>Maven Web Project for Java Project</description>
 	<organization>
@@ -107,7 +107,7 @@
 	</distributionManagement>
 	
 	<build>
-		<finalName>paypal-application</finalName>
+		<finalName>paypal-applications</finalName>
 		
 		<plugins>
 			<plugin>
@@ -127,7 +127,7 @@
 				<configuration>
 					<scanIntervalSeconds>10</scanIntervalSeconds>
 					<webApp>
-						<contextPath>/maven-web-application</contextPath>
+						<contextPath>/tesla-real-web-application</contextPath>
 					</webApp>
 				</configuration>
 			</plugin>
